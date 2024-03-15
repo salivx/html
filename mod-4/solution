@@ -1,0 +1,11 @@
+let names = ["safae", "Aya", "Hicham", "Soukaina", "Sal", "Steve", "Javier"];
+
+
+names.forEach((name) => {
+  // Check if the name starts with J or j
+  if (name.charAt(0) === 's' || name.charAt(0) === 'S') {
+    console.log("Goodbye " + name);
+  } else {
+    console.log("Hello " + name);
+  }
+});
